@@ -1,0 +1,90 @@
+﻿<Page x:Class="Digital.Page_Game"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Digital"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1535"
+      Title="Page_Game">
+
+    <Grid>
+        <Grid Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="85"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Image Source="C:\Users\asus\source\repos\Digital\Digital\Pictures\recommend.png"/>
+                </Grid>
+                <Grid Grid.Column="1" Background="#F1F1F1">
+                    <Button Width="250" Height="80" Margin="100,10,1100,10"
+                            Background="White" BorderThickness="0">
+                    </Button>
+                    <Button Width="250" Height="80" Margin="435,10,765,10"
+                            Background="White" BorderThickness="0">
+
+                    </Button>
+                    <Button Width="250" Height="80" Margin="765,10,435,10"
+                            Background="White" BorderThickness="0">
+
+                    </Button>
+                    <Button Width="250" Height="80" Margin="1100,10,100,10"
+                            Background="White" BorderThickness="0">
+
+                    </Button>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="30,10,1385,10">
+                    
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="180,10,1235,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="330,10,1085,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="480,10,935,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="630,10,785,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="780,10,635,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="930,10,485,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="1080,10,335,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="1230,10,185,10">
+
+                </Button>
+                <Button Width="120" Height="50"
+                        Background="White" BorderThickness="0" Margin="1380,10,35,10">
+
+                </Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
